@@ -1,0 +1,25 @@
+{
+  "name": "Ride & Roam — PackPulse",
+  "short_name": "Ride & Roam",
+  "description": "Find your pack. Live Sunday ride radar, club lounges, AI tank splits and ride reels.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07070C",
+  "theme_color": "#07070C",
+  "categories": ["social", "travel", "sports"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Live pack radar", "url": "/#/feed" },
+    { "name": "Host a ride", "url": "/#/create" },
+    { "name": "My garage", "url": "/#/garage" }
+  ]
+}
